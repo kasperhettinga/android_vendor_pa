@@ -25,3 +25,7 @@ add_lunch_combo pa_d2usc-userdebug
 add_lunch_combo pa_jfltetmo-userdebug
 add_lunch_combo pa_jflteatt-userdebug
 add_lunch_combo pa_jfltecan-userdebug
+add_lunch_combo pa_p4-userdebug
+add_lunch_combo pa_p4tmo-userdebug
+add_lunch_combo pa_p4vzw-userdebug
+add_lunch_combo pa_p4wifi-userdebug
