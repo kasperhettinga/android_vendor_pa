@@ -23,9 +23,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
-# Bring in all video files
-$(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
-
 # Exclude prebuilt paprefs from builds if the flag is set
 ifneq ($(PREFS_FROM_SOURCE),true)
     PRODUCT_COPY_FILES += \
