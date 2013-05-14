@@ -61,3 +61,6 @@ endif
 ifeq (pa_p4wifi,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_p4wifi.mk
 endif
+ifeq (pa_p970,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_p970.mk
+endif
