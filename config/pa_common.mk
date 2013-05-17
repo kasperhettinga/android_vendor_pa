@@ -46,6 +46,13 @@ else
         vendor/pa/prebuilt/common/bootanimation/XHDPI.zip:system/media/bootanimation.zip
 endif
 
+# CM packages
+PRODUCT_PACKAGES += \
+    CMFileManager \
+    DSPManager \
+    LockClock \
+    Torch
+
 # T-Mobile theme engine
 include vendor/pa/config/themes_common.mk
 
